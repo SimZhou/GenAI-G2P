@@ -1,0 +1,4 @@
+volcengine-python-sdk[ark]
+openai
+omegaconf
+requests

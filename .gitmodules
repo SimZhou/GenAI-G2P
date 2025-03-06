@@ -1,0 +1,3 @@
+[submodule "genai_g2p/g2p_converter/guidance/english-cmudict/cmudict"]
+	path = genai_g2p/g2p_converter/guidance/english-cmudict/cmudict
+	url = https://github.com/cmusphinx/cmudict.git
