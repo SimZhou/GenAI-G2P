@@ -1,0 +1,28 @@
+hparams:
+  g2p_guidance: "genai_g2p/g2p_converter/guidance/english-cmudict/cmudict.md"
+  system_prompt: "You are a linguistic expert specialized in phonetic transcription from ${g} to ${p}.\nProvide accurate phonetic transcriptions for each line without extra explanation, keep the original text at the beginning of each line.\nColumn 1 is the text, column 2+ is the existing phonetic transcription.\nIf the text is not in CMUdict, provide the pronunciation according to common usage.\nIf explanation is necessary, provide them in brackets to the line end.\nThe phonetic transcription guidance document is as follows: @${hparams.g2p_guidance}@."
+
+input_file: example/01_CMUDict_correction/test_dict.txt
+output_dir: example/01_CMUDict_correction/
+mode: correction               # out of ['predict', 'correction']
+
+g: English
+p: CMUDict
+
+models:
+  - provider: deepseek
+    model_name: deepseek-chat
+    system_prompt: ${hparams.system_prompt}
+  - provider: deepseek
+    model_name: deepseek-reasoner
+    system_prompt: ${hparams.system_prompt}
+  - provider: volcengine
+    model_name: doubao-1-5-pro-32k-250115
+    system_prompt: ${hparams.system_prompt}
+
+  # - provider: deepseek
+  #   model_name: deepseek-reasoner
+  #   prompt: ${hparams.prompt}
+  - provider: volcengine
+    model_name: doubao-1-5-pro-256k-250115
+    system_prompt: ${hparams.system_prompt}

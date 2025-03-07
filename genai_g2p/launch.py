@@ -79,7 +79,7 @@ def process_models(config):
                     g=config.g.lower(),
                     p=config.p.lower(),
                     system_prompt=resolved_prompt
-                ).convert_file, config.input_file)
+                ).convert_file, config.input_file, config.mode)
             )
         results = [
             future.result()
