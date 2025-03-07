@@ -13,10 +13,11 @@ class DeepseekProvider(Provider):
         self,
         model: str = "deepseek-chat",   # From: https://api-docs.deepseek.com/zh-cn/api/list-models
         system_prompt: str = "You are a helpful assistant.",
+        max_tokens: int = 1024,
         **kwargs
     ):
         # Initialize base provider
-        super().__init__(model)
+        super().__init__(model, max_tokens)
         # If no API key is provided, attempt to read it from environment variables
         self.api_key = os.getenv("DEEPSEEK_API_KEY")
         if not self.api_key:
@@ -27,14 +28,14 @@ class DeepseekProvider(Provider):
         self.extra_params = {}
         self.extra_params.update(kwargs)
 
-    def completion(self, prompt: str, max_tokens: int = 1024, temperature: float = 0.7, **kwargs) -> Any:
+    def completion(self, prompt: str, temperature: float = 0.7, **kwargs) -> Any:
         response = self.client.chat.completions.create(
             model=self.model,
             messages=[
                 {"role": "system", "content": self.system_prompt},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=max_tokens,
+            max_tokens=self.max_tokens,
             temperature=temperature,
             **{**self.extra_params, **kwargs}
         )

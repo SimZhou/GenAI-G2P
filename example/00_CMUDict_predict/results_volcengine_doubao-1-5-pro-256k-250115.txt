@@ -1,0 +1,96 @@
+trundled	TR AH1 N D AH0 L D
+trunk	TR AH1 NG K
+trunkline	TR AH1 NG K L AY1 N
+trunks	TR AH1 NG K S
+trunnell	(Not in CMUdict, common pronunciation might be: TR AH1 N EH L)
+trunzo	(Not in CMUdict, common pronunciation might be: TR AH1 N Z OW)
+truong	(Not in CMUdict, common pronunciation might vary, perhaps: TR UW1 AH NG)
+trupiano	(Not in CMUdict, common pronunciation might be: TR UW1 P Y AH0 N OW)
+trupin	(Not in CMUdict, common pronunciation might be: TR UW1 P IH N)
+trupin's	(Not in CMUdict, common pronunciation might be: TR UW1 P IH N Z)
+trupp	(Not in CMUdict, common pronunciation might be: TR AH1 P)
+truro	(Not in CMUdict, common pronunciation might be: TR UW1 R OW)
+trus	(Not in CMUdict, common pronunciation might be: TR AH1 S)
+truscott	(Not in CMUdict, common pronunciation might be: TR AH1 S K AA0 T)
+truskowski	(Not in CMUdict, common pronunciation might be: TR AH1 S K OW0 S K IY)
+trusler	(Not in CMUdict, common pronunciation might be: TR AH1 S L ER0)
+trusler(2)	(Not in CMUdict, common pronunciation might be: TR AH1 S L ER0)
+truslow	(Not in CMUdict, common pronunciation might be: TR AH1 S L OW0)
+truss	TR AH1 S
+trussell	(Not in CMUdict, common pronunciation might be: TR AH1 S EH L)
+trusses	TR AH1 S IH0 Z
+trust	TR AH1 S T
+trust's	TR AH1 S T S
+trustco	(Not in CMUdict, common pronunciation might be: TR AH1 S T K OW0)
+trustcorp	(Not in CMUdict, common pronunciation might be: TR AH1 S T K AO1 R P)
+trusted	TR AH1 S T IH0 D
+trustee	TR AH1 S T IY1
+trustee's	TR AH1 S T IY1 Z
+trustees	TR AH1 S T IY0 Z
+trustees'	TR AH1 S T IY0 Z
+trusteeship	TR AH1 S T IY0 SH IH1 P
+trusthouse	TR AH1 S T H AW1 S
+trusting	TR AH1 S T IH0 NG
+trusts	TR AH1 S T S
+trusts'	TR AH1 S T S
+trustworthiness	TR AH1 S T W ER0 TH IH1 N EH S
+trustworthy	TR AH1 S T W ER0 TH IY1
+trusty	TR AH1 S T IY0
+truszkowski	(Not in CMUdict, common pronunciation might be: TR AH1 S K OW0 S K IY)
+truth	TR UW1 TH
+truthful	TR UW1 TH F AH0 L
+truthfully	TR UW1 TH F AH0 L IY0
+truthfulness	TR UW1 TH F AH0 L N EH S
+truthiness	TR UW1 TH IH0 N EH S
+truths	TR UW1 TH S
+truxal	(Not in CMUdict, common pronunciation might be: TR AH1 K S AH0 L)
+truxillo	(Not in CMUdict, common pronunciation might be: TR AH1 K S IH0 L OW)
+try	TR AY1
+try-on	TR AY1 - AA1 N
+try-ons	TR AY1 - AA1 N Z
+tryart (not in CMUdict, common pronunciation guess: TR AY R T)
+tryba (not in CMUdict, common pronunciation guess: TR AY B AH)
+trybus (not in CMUdict, common pronunciation guess: TR AY B AH S)
+trygg (not in CMUdict, common pronunciation guess: TR IHG)
+trygstad (not in CMUdict, common pronunciation guess: TR IHG ST AE D)
+trygve (not in CMUdict, common pronunciation guess: TR IHG V AE)
+tryin' (not in CMUdict, common pronunciation guess: TR AY IH N)
+trying  TR AY IH NG
+trying(2)  TR AY IH NG
+tryon (not in CMUdict, common pronunciation guess: TR AY AA N)
+tryout  TR AY AW T
+tryouts  TR AY AW TS
+tryphena (not in CMUdict, common pronunciation guess: TR IH F IY N AH)
+tryst  TR IH ST
+tryst(2)  TR IH ST
+trzaska (not in CMUdict, common pronunciation guess: TR Z AA SK AH)
+trzcinski (not in CMUdict, common pronunciation guess: TR Z IH N SK IY)
+trzeciak (not in CMUdict, common pronunciation guess: TR Z AE CH IY AK)
+ts  (not in CMUdict, common pronunciation guess: T S)
+tsai (not in CMUdict, common pronunciation guess: T S AY)
+tsai(2) (not in CMUdict, common pronunciation guess: T S AY)
+tsai's (not in CMUdict, common pronunciation guess: T S AY Z)
+tsai's(2) (not in CMUdict, common pronunciation guess: T S AY Z)
+tsakos (not in CMUdict, common pronunciation guess: T S AE K OW S)
+tsang (not in CMUdict, common pronunciation guess: T S AE NG)
+tsang(2) (not in CMUdict, common pronunciation guess: T S AE NG)
+tsao (not in CMUdict, common pronunciation guess: T S AW)
+tsao(2) (not in CMUdict, common pronunciation guess: T S AW)
+tsar  T S AA R
+tsar(2)  T S AA R
+tschantz (not in CMUdict, common pronunciation guess: T S CH AE N TS)
+tschetter (not in CMUdict, common pronunciation guess: T S CH EH T ER)
+tschida (not in CMUdict, common pronunciation guess: T S CH IH D AH)
+tschirhart (not in CMUdict, common pronunciation guess: T S CH ER H AA R T)
+tschopp (not in CMUdict, common pronunciation guess: T S CH AA P)
+tschudy (not in CMUdict, common pronunciation guess: T S CH UW D IY)
+tschumi (not in CMUdict, common pronunciation guess: T S CH UW M IY)
+tse (not in CMUdict, common pronunciation guess: T S EH)
+tse(2) (not in CMUdict, common pronunciation guess: T S EH)
+tsemel (not in CMUdict, common pronunciation guess: T S EH M EH L)
+tseng (not in CMUdict, common pronunciation guess: T S EH NG)
+tseng(2) (not in CMUdict, common pronunciation guess: T S EH NG)
+tsetse  T S EH T S EH
+tsetse(2)  T S EH T S EH
+tshisekedi (not in CMUdict, common pronunciation guess: T SH IH S EH K EH D IY)
+tsiang (not in CMUdict, common pronunciation guess: T S IY AE NG)

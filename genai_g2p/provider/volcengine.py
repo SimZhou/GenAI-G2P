@@ -19,6 +19,7 @@ class VolcEngineProvider(Provider):
         self,
         model: str = "doubao-1-5-pro-256k-250115",
         system_prompt: str = "You are a helpful assistant.",
+        max_tokens: int = 1024,
         **kwargs
     ):
         """
@@ -31,7 +32,7 @@ class VolcEngineProvider(Provider):
             api_base: Base URL for the VolcEngine API.
             **kwargs: Additional parameters to pass to the API call.
         """
-        super().__init__(model)
+        super().__init__(model, max_tokens)
         self.api_key = os.getenv("ARK_API_KEY")
         if not self.api_key:
             raise ValueError("VolcEngine API key not provided. Please set the ARK_API_KEY environment variable.")
@@ -46,14 +47,14 @@ class VolcEngineProvider(Provider):
         self.extra_params = {}
         self.extra_params.update(kwargs)
 
-    def completion(self, prompt: str, max_tokens: int = 1024, temperature: float = 0.7, **kwargs) -> Any:
+    def completion(self, prompt: str, temperature: float = 0.7, **kwargs) -> Any:
         response = self.client.chat.completions.create(
             model = self.model,
             messages = [
                 {"role": "system", "content": self.system_prompt},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens = max_tokens,
+            max_tokens = self.max_tokens,
             temperature = temperature,
             **{**self.extra_params, **kwargs},          # 额外参数，可以设置例如temperature, topP等
                                                         #          参考文档：https://www.volcengine.com/docs/82379/1298454#%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0

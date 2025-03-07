@@ -9,6 +9,7 @@ from pathlib import Path
 class Model:
     provider: str = MISSING
     model_name: str = MISSING
+    system_prompt: str = ''
     prompt: str = ''
 
 @dataclass
